@@ -1,5 +1,5 @@
 # rtpMIDI-HUB
-A project developed using the Arduino IDE to utilize a Teensy 4.1 as an interface capable of connecting USB MIDI peripherals with the rptMIDI (AppleMIDI) protocol.
+A project developed using the Arduino IDE to utilize a Teensy 4.1 as a computer network interface capable of connecting USB MIDI peripherals with the rptMIDI (aa AppleMIDI) protocol.
 
 ## Description:
 The project harnesses the power of USB Host and leverages the network interface of the Teensy 4.1 from PRJC (https://www.pjrc.com/store/teensy41.html) as a conduit for linking USB MIDI devices to the Ethernet network. Crafted within the confines of the Arduino IDE (https://www.arduino.cc/), this endeavor is augmented with an LED and a switch, offering the flexibility of toggling between two distinct Ethernet configurations.
