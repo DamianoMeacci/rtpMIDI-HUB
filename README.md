@@ -11,3 +11,7 @@ Configuring the "MIDI Network Setup" is effortlessly achieved through the dedica
 
 ## For Windows OS users:
 Embarking on the Windows journey requires the installation of Tobias Erichsen's rtpMIDI application (https://www.tobias-erichsen.de/software/rtpmidi.html) alongside Apple Bonjour on your system. These tools form the backbone of MIDI communication, enabling seamless integration with your device. With these software components in place, you're primed to delve into the rich world of MIDI connectivity and unleash the full potential of your setup.
+
+## Using more than two computers connected to rtpMIDI-HUB
+The AppleMIDI library, in its initial configuration, allows for a maximum of two computers connected to the device.
+If you want to use more than two computers, you need to modify the MaxNumberOfParticipants variable in AppleMIDI_Settings.h and optionally the MaxNumberOfComputersInDirectory variable in the same file.
